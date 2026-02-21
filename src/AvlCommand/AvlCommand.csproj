@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="JotunnLib" Version="2.27.1" />
-    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.219.14" />
+    <PackageReference Include="HarmonyX" Version="2.10.1"/>
   </ItemGroup>
 
 </Project>

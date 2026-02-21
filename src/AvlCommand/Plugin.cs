@@ -1,10 +1,11 @@
 using BepInEx;
 using Jotunn.Utils;
-using UnityEngine;
+using Logger = Jotunn.Logger;
 
 namespace AvlCommand
 {
     [BepInPlugin(ModGUID, ModName, ModVersion)]
+    [BepInDependency(Jotunn.Main.ModGuid)]
     public class Plugin : BaseUnityPlugin
     {
         public const string ModGUID = "com.crzi.avlcommand";
