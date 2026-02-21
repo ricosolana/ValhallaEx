@@ -4,8 +4,6 @@
     <TargetFramework>net48</TargetFramework>
     <AssemblyName>AvlCommand</AssemblyName>
     <RootNamespace>AvlCommand</RootNamespace>
-    <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

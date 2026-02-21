@@ -19,11 +19,12 @@ jobs:
       - uses: NuGet/setup-nuget@v2
 
       - name: Restore
-        run: nuget restore
+        run: dotnet restore src/AvlCommand/AvlCommand.csproj
 
       - name: Build
 #        run: msbuild YourMod.sln /p:Configuration=Release
-        run: msbuild src/AvlCommand/AvlCommand.csproj /p:Configuration=Release
+#        run: msbuild src/AvlCommand/AvlCommand.csproj /p:Configuration=Release
+        run: dotnet build src/AvlCommand/AvlCommand.csproj -c Release
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
