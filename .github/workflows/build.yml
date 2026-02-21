@@ -22,8 +22,6 @@ jobs:
         run: dotnet restore src/AvlCommand/AvlCommand.csproj
 
       - name: Build
-#        run: msbuild YourMod.sln /p:Configuration=Release
-#        run: msbuild src/AvlCommand/AvlCommand.csproj /p:Configuration=Release
         run: dotnet build src/AvlCommand/AvlCommand.csproj -c Release
 
       - name: Upload artifact

@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BepInEx.Valheim" Version="5.*" />
-    <PackageReference Include="Jotunn" Version="2.*" />
+    <PackageReference Include="JotunnLib" Version="2.27.1" />
+    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.219.14" />
   </ItemGroup>
 
 </Project>
