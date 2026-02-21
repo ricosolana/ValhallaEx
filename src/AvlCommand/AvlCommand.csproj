@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="JotunnLib" Version="2.27.1" />
     <PackageReference Include="HarmonyX" Version="2.10.1"/>
+    <PackageReference Include="ValheimLibz" Version="0.221.12"/>
   </ItemGroup>
 
 </Project>
