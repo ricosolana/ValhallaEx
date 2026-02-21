@@ -22,7 +22,8 @@ jobs:
         run: nuget restore
 
       - name: Build
-        run: msbuild YourMod.sln /p:Configuration=Release
+#        run: msbuild YourMod.sln /p:Configuration=Release
+        run: msbuild src/AvlCommand/AvlCommand.csproj /p:Configuration=Release
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

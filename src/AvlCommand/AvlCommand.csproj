@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>AvlCommand</AssemblyName>
+    <RootNamespace>AvlCommand</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Valheim" Version="5.*" />
+    <PackageReference Include="Jotunn" Version="2.*" />
+  </ItemGroup>
+
+</Project>
